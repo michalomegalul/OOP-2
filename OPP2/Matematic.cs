@@ -8,14 +8,17 @@ namespace OPP2;
 
 public class Matematic
 {
-    private int _pi;
-    public Matematic(int pi)
+    private double _pi;
+    public Matematic(double pi)
     {
         this._pi = pi;
     }
     public void CircumferenceOfACircle()
     {
-        Console.WriteLine($"Je to:{_pi * 3.14}");
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"obvod:{_pi * 3.14}");
+        Console.WriteLine($"obsah:{(_pi * _pi) * 3.14}");
     }
 
 }

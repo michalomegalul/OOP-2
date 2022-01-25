@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OPP2;
 
-internal class Chameleon
+public class Chameleon
 {
     
     private string _name;
@@ -14,6 +14,7 @@ internal class Chameleon
     private int _height;
     private int _weight;
     private int _lenght;
+
     private int _colorNumber;
     public Chameleon(string name, string color, int height,int weight,int lenght, int colorNumber)
     {

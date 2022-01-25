@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dog56\\source\\repos\\OPP2\\OPP2\\OPP2.csproj",
+      "projectUniqueName": "C:\\Users\\dog56\\Source\\Repos\\procvicovani-oop\\OPP2\\OPP2.csproj",
       "projectName": "OPP2",
-      "projectPath": "C:\\Users\\dog56\\source\\repos\\OPP2\\OPP2\\OPP2.csproj",
+      "projectPath": "C:\\Users\\dog56\\Source\\Repos\\procvicovani-oop\\OPP2\\OPP2.csproj",
       "packagesPath": "C:\\Users\\dog56\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dog56\\source\\repos\\OPP2\\OPP2\\obj\\",
+      "outputPath": "C:\\Users\\dog56\\Source\\Repos\\procvicovani-oop\\OPP2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dog56\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.emzi0767.com/api/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
