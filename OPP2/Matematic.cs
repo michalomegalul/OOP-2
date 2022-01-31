@@ -8,7 +8,7 @@ namespace OPP2;
 
 public class Matematic
 {
-    private double _pi;
+    private double _pi { get; set; }
     public Matematic(double pi)
     {
         this._pi = pi;

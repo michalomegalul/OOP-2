@@ -25,7 +25,7 @@ public class Factory
         for (int i = 0; i < _numerosa; i++)
         {
             Console.BackgroundColor = ConsoleColor.Green;
-            Thread.Sleep(1000);
+            Thread.Sleep(10);
             Console.WriteLine($"{_product}");//co se koukam k patrikovy tak opisuje sadge 
         }
 

@@ -10,10 +10,10 @@ public class Aplication
 {
     public void Run()
     {
-       
-        var chamName = new Chameleon("Sweet Pea","RED",3,4,5,0); //by google moste used name
-        var chamNameClass = new Chameleon("SLURP","void",0,0,0,0);//muzu udelat novou classu ale to semi nechce 
-        var chamColor = new Chameleon("SLURP","s",0,0,0,ColorCh());
+
+        var chamName = new Chameleon("Sweet Pea", "RED", 3, 4, 5, 0); //by google moste used name
+        var chamNameClass = new Chameleon("SLURP", "void", 0, 0, 0, 0);//muzu udelat novou classu ale to semi nechce 
+        var chamColor = new Chameleon("SLURP", "s", 0, 0, 0, ColorCh());
         chamName.Color();
         chamNameClass.Hunt();
         chamColor.ChangeColor();
@@ -22,6 +22,7 @@ public class Aplication
         product.Productx();
         var circumferenceofacircle = new Matematic(32);
         circumferenceofacircle.CircumferenceOfACircle();
+        var words = new WordSearchidk();
 
 
 
